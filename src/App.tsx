@@ -1,13 +1,20 @@
-// import './App.css'
-import Error404 from './components/error/404/error404'
-import { Error500 } from './components/error/500/error500'
+import Signin from "./components/signin/Signin"
+import Signup from "./components/signup/Signup"
+import Header from "./layouts/header/Header"
+import SidebarMenu from "./layouts/sidebar/SidebarMenu"
+
+ 
+
 function App() {
 
   return (
     <>
       {/* <Error404/> */}
-      <Error500/>
-      {/* <h1 className="text-3xl font-bold underline text-center text-red-600">Hello world!</h1>  */}
+      {/* <Signup/> */}
+      {/* hello */}
+      {/* <Signin/> */}
+      <Header/>
+      <SidebarMenu/>
     </>
   )
 }

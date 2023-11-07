@@ -18,9 +18,9 @@ export function Error500(props: IError500Props) {
           <p className="h4 font-weight-normal text-orange-500">
             The page you requested was not found.
           </p>
-          <a href="index.html" className="btn btn-primary">
+          <div className="btn btn-primary">
             Back to Home
-          </a>
+          </div>
         </div>
       </div>
     </div>
